@@ -1,0 +1,224 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="sidebar">
+        <div class="logo">
+            <img src="img/erp.png" alt="erp">
+        </div>
+        <ul class="menu">
+            <li class="active">
+                <a href="#">
+                    <i class="fas fa-tachometer-alt"></i>
+                    <span>Dashboard</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-user"></i>
+                    <span>Profile</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-chart-bar"></i>
+                    <span>Statistics</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-briefcase" aria-hidden="true"></i>
+                    <span>Careers</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fa fa-question-circle" aria-hidden="true"></i>
+                    <span>FAQ</span>
+                </a>
+            </li>
+
+            <li>
+                <a href="#">
+                    <i class="fas fa-star"></i>
+                    <span>Testimunials</span>
+                </a>
+            </li>
+            <li>
+                <a href="#">
+                    <i class="fas fa-cog"></i>
+                    <span>Settings</span>
+                </a>
+            </li>
+            <li class="logout">
+                <a href="#">
+                    <i class="fa fa-sign-out"></i>
+                    <span>Logout</span>
+                </a>
+            </li>
+        </ul>
+    </div>
+
+    <div class="main-content">
+        <div class="header-wrapper">
+            <div class="header-title">
+                <span>Primary</span>
+                <h2>Dashboard</h2>
+            </div>
+            <div class="user-info">
+                <div class="search-box">
+                    <i class="fa fa-search" aria-hidden="true"></i>
+                    <input type="text" placeholder="Search" />
+                </div>
+                <img src="img/profile.jpg" alt="">
+            </div>
+        </div>
+
+        <!-- Starting card section  -->
+        <div class="card-container">
+            <h3 class="main-taitle">Today's Data</h3>
+            <div class="card-wrapper">
+                <div class="payment-card light-red">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment amount
+                            </span>
+                            <span class="amount-value">$500.00</span>
+                        </div>
+                        <i class="fas fa-dollar-sign icon"></i>
+                    </div>
+                    <span class="card-detail">
+                        **** **** **** 2478
+                    </span>
+                </div>
+
+                <div class="payment-card light-purple">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment order
+                            </span>
+                            <span class="amount-value">$500.00</span>
+                        </div>
+                        <i class="fas fa-list icon dark-purple"></i>
+                    </div>
+                    <span class="card-detail">
+                        **** **** **** 8567
+                    </span>
+                </div>
+                <div class="payment-card light-green">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment customer
+                            </span>
+                            <span class="amount-value">$820.00</span>
+                        </div>
+                        <i class="fas fa-users icon dark-green"></i>
+                    </div>
+                    <span class="card-detail">
+                        **** **** **** 2478
+                    </span>
+                </div>
+                <div class="payment-card light-blue">
+                    <div class="card-header">
+                        <div class="amount">
+                            <span class="title">
+                                Payment process
+                            </span>
+                            <span class="amount-value">$325.00</span>
+                        </div>
+                        <i class="fas fa-check icon dark-blue"></i>
+                    </div>
+                    <span class="card-detail">
+                        **** **** **** 2478
+                    </span>
+                </div>
+            </div>
+        </div>
+        <!-- Ending of card section  -->
+
+        <!-- Data table sectin  -->
+         <div class="tabular-wrapper">
+            <h3 class="main-title">Finance Data</h3>
+            <div class="table-container">
+                <table>
+                    <thead>
+                        <tr>
+                            <th>Data</th>
+                            <th>Transaction Type</th>
+                            <th>Description</th>
+                            <th>Amount</th>
+                            <th>Category</th>
+                            <th>Status</th>
+                            <th>Action</th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>22/10/2024</td>
+                            <td>Expences</td>
+                            <td>Suplies</td>
+                            <td>$311</td>
+                            <td>Office Expences</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>24/10/2024</td>
+                            <td>Income</td>
+                            <td>Rent</td>
+                            <td>$502</td>
+                            <td>Home Expences</td>
+                            <td>Paid</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>22/10/2024</td>
+                            <td>Expences</td>
+                            <td>Suplies</td>
+                            <td>$311</td>
+                            <td>Office Expences</td>
+                            <td>Processing</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>24/10/2024</td>
+                            <td>Income</td>
+                            <td>Rent</td>
+                            <td>$502</td>
+                            <td>Home Expences</td>
+                            <td>Paid</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                        <tr>
+                            <td>22/10/2024</td>
+                            <td>Expences</td>
+                            <td>Suplies</td>
+                            <td>$621</td>
+                            <td>Office Expences</td>
+                            <td>Pending</td>
+                            <td><button>Edit</button></td>
+                        </tr>
+                    </tbody>
+                    <tfoot>
+                        <tr>
+                            <td colspan="7">Total: $1,555</td>
+                        </tr>
+                    </tfoot>
+                </table>
+            </div>
+         </div>
+    </div>
+</body>
+
+</html>
